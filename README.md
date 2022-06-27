@@ -11,7 +11,7 @@ https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.6.065603
 
 This repository contains all of the structural data that was used to train the potential, as well as to validate it. All of this structural data can be found in the file structural_data.zip.
 
-### Alternate Paramterization
+### Alternate Parameterization
 
 Two different versions of the potential are contained in this repository, each of which was trained on the same data but using slightly different parameterizations for the regularization parameters. The parameterization used in the Physical Review Materials paper is contained in the files GAP/GAP_Si_H_PRM.xml*, while the alternate parameterization is contained in the files GAP/GAP_Si_H_PRM_alternate_parameterization.xml*.
 
