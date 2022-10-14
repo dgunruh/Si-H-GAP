@@ -28,7 +28,7 @@ To load this potential in LAMMPS, first ensuring that you have built LAMMPS with
 
 ```code
 pair_style  quip
-pair_coeff  * * ../potential/GAP_Si_H_PRM.xml "Potential xml_label=GAP_2021_5_28_-420_7_13_1_584" 1 14
+pair_coeff  * * GAP_Si_H_PRM.xml "Potential xml_label=GAP_2021_5_28_-420_7_13_1_584" 1 14
 ```
 To load this potential in ASE, it is required that you add the [quippy](https://github.com/libAtoms/QUIP) program to your python environment. Once you have done so, you can load the potential with:
 ```code
