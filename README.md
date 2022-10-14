@@ -19,6 +19,11 @@ This alternate parameterization doubled the prefactor for the virial sigmas for 
 
 ### LAMMPS and ASE usage
 
+First, unpack the sparseX files GAP_Si_H_PRM.xml.sparseX.\*. These files are all compressed in the bzip2 file format. On unix/linux, unpack the files by running the command:
+```code
+bzip2 -d GAP_Si_H_PRM.xml.sparseX.*
+```
+
 To load this potential in LAMMPS, first ensuring that you have built LAMMPS with [QUIP](https://github.com/libAtoms/QUIP), include the following commands in your LAMMPS input file:
 
 ```code
