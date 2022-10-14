@@ -19,13 +19,13 @@ This alternate parameterization doubled the prefactor for the virial sigmas for 
 
 ### LAMMPS and ASE usage
 
-To load this potential in LAMMPS, first ensuring that you have built LAMMPS with QUIP (), include the following commands in your LAMMPS input file:
+To load this potential in LAMMPS, first ensuring that you have built LAMMPS with [QUIP](https://github.com/libAtoms/QUIP), include the following commands in your LAMMPS input file:
 
 ```code
 pair_style  quip
 pair_coeff  * * ../potential/GAP_Si_H_PRM.xml "Potential xml_label=GAP_2021_5_28_-420_7_13_1_584" 1 14
 ```
-To load this potential in ASE, it is required that you add the quippy () program to your python environment. Once you have done so, you can load the potential with:
+To load this potential in ASE, it is required that you add the [quippy](https://github.com/libAtoms/QUIP) program to your python environment. Once you have done so, you can load the potential with:
 ```code
 from quippy.potential import Potential
 calculator = Potential('IP GAP', param_filename="GAP_Si_H_PRM.xml")
